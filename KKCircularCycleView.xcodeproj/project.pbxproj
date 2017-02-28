@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A26676C61E65A8D5006FF836 /* KKCircularCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26676C51E65A8D5006FF836 /* KKCircularCycleView.swift */; };
 		A2C5C3DA1E595AA7004C26FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C5C3D91E595AA7004C26FD /* AppDelegate.swift */; };
 		A2C5C3DC1E595AA7004C26FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C5C3DB1E595AA7004C26FD /* ViewController.swift */; };
 		A2C5C3DF1E595AA7004C26FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C5C3DD1E595AA7004C26FD /* Main.storyboard */; };
 		A2C5C3E11E595AA7004C26FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C5C3E01E595AA7004C26FD /* Assets.xcassets */; };
 		A2C5C3E41E595AA7004C26FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C5C3E21E595AA7004C26FD /* LaunchScreen.storyboard */; };
-		A2C5C3EC1E595AB9004C26FD /* KKCircularCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C5C3EB1E595AB9004C26FD /* KKCircularCycleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A26676C51E65A8D5006FF836 /* KKCircularCycleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKCircularCycleView.swift; sourceTree = "<group>"; };
 		A2C5C3D61E595AA7004C26FD /* KKCircularCycleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKCircularCycleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C5C3D91E595AA7004C26FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2C5C3DB1E595AA7004C26FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +24,6 @@
 		A2C5C3E01E595AA7004C26FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2C5C3E31E595AA7004C26FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2C5C3E51E595AA7004C26FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2C5C3EB1E595AB9004C26FD /* KKCircularCycleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKCircularCycleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A26676C41E65A8D5006FF836 /* KKCircularCycleView */ = {
+			isa = PBXGroup;
+			children = (
+				A26676C51E65A8D5006FF836 /* KKCircularCycleView.swift */,
+			);
+			path = KKCircularCycleView;
+			sourceTree = "<group>";
+		};
 		A2C5C3CD1E595AA6004C26FD = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +64,9 @@
 		A2C5C3D81E595AA7004C26FD /* KKCircularCycleView */ = {
 			isa = PBXGroup;
 			children = (
+				A26676C41E65A8D5006FF836 /* KKCircularCycleView */,
 				A2C5C3D91E595AA7004C26FD /* AppDelegate.swift */,
 				A2C5C3DB1E595AA7004C26FD /* ViewController.swift */,
-				A2C5C3EB1E595AB9004C26FD /* KKCircularCycleView.swift */,
 				A2C5C3DD1E595AA7004C26FD /* Main.storyboard */,
 				A2C5C3E01E595AA7004C26FD /* Assets.xcassets */,
 				A2C5C3E21E595AA7004C26FD /* LaunchScreen.storyboard */,
@@ -139,7 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2C5C3DC1E595AA7004C26FD /* ViewController.swift in Sources */,
-				A2C5C3EC1E595AB9004C26FD /* KKCircularCycleView.swift in Sources */,
+				A26676C61E65A8D5006FF836 /* KKCircularCycleView.swift in Sources */,
 				A2C5C3DA1E595AA7004C26FD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +300,7 @@
 				A2C5C3EA1E595AA7004C26FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/TieShanWang/KKFingerprintVarify.git", :tag => "0.0.1" }
 
-  s.source_files  = "KKCircularCycleView/KKCircularCycleView.swift
+  s.source_files  = "KKCircularCycleView/KKCircularCycleView/*.{swift}"
 
   s.framework  = "UIKit"
 
